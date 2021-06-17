@@ -7,7 +7,7 @@
 <body> 
 
 <div style="text-align:center"> 
-  <video id="video1" width="1080">
+  <video id="video1" width="864">
     <source src="https://cm15-c110-2.play.bokecc.com/flvs/ca/QxIzk/uC2wXqU26B-20.mp4?t=1623910999&key=9E4E38973A45CF1BFB6E3F2754C958A1&tpl=10&tpt=112" type="video/mp4">
     您的浏览器不支持 HTML5 video 标签。
   </video>
@@ -31,17 +31,17 @@ function playPause()
 
 	function makeBig()
 { 
-	myVideo.width=560; 
+	myVideo.width=myVideo.width+80; 
 } 
 
 	function makeSmall()
 { 
-	myVideo.width=320; 
+	myVideo.width=myVideo.width-80; 
 } 
 
 	function makeNormal()
 { 
-	myVideo.width=420; 
+	myVideo.width=myVideo.width; 
 } 
 </script> 
 
